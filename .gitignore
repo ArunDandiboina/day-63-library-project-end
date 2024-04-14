@@ -1,6 +1,5 @@
 # Byte-compiled / optimized / DLL files
-instance/
-instance/books.db
+
 __pycache__/
 *.py[cod]
 *$py.class
