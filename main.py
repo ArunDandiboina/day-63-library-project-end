@@ -26,7 +26,7 @@ class Base(DeclarativeBase):
 
 
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", "sqlite:///posts.db")
-connection = psycopg2.connect(os.environ.get("DB_URI"))
+# connection = psycopg2.connect(os.environ.get("DB_URI"))
 # Create the extension
 db = SQLAlchemy(model_class=Base)
 # initialise the app with the extension
